@@ -1,0 +1,46 @@
+page-home {
+
+	.toolbar-background { 
+	 	background: #828896 !important;
+	  }
+
+	  .text-black{
+	  	color: black !important;
+	  }
+
+	  .toolbar-title.toolbar-title-md {
+    font-size: 26px;
+        padding-left: 50px;
+}
+
+	  button.disable-hover.bar-button.bar-button-ios.bar-button-default {
+    color: black !important;
+    font-size: 14px !important;
+}
+
+.toolbar-title.toolbar-title-ios {
+	font-size: 24px;
+}
+
+
+		.badge {
+		        background: white;
+			    color: #000000;
+			    border-radius: 20px;
+			    border: 1px solid;
+			    width: 35px;
+			    height: 35px;
+			    margin: auto;
+			    align-items: center;
+			    display: flex;
+			    justify-content: center;
+		}
+
+		.bordernone{
+			border: none !important;
+		}
+
+		ion-item.bordernone .item-inner {
+		    border: none !important;
+		}
+}

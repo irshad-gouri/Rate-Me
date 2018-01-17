@@ -1,0 +1,80 @@
+page-addscore {
+
+
+
+	.toolbar-background { 
+	 	background: #828896 !important;
+	 	align-items: center;
+	 	display: flex;
+
+	  }
+
+	  .text-black{
+	  	color: black !important;
+	  }
+
+
+
+button.disable-hover.bar-button.bar-button-ios.bar-button-default {
+    color: black !important;
+    font-size: 14px !important;
+}
+
+
+		
+
+		ion-item.input-set {
+		       min-height: 0.4rem;
+			    border: 2px solid;
+			    border-radius: 4px;
+			    padding: 0px !important;
+
+		}
+
+		.toolbar-title.toolbar-title-md {
+    font-size: 26px;
+    padding-right: 50px;
+}
+
+.toolbar-title.toolbar-title-ios {
+	font-size: 24px;
+}
+
+		.fs-12{
+			font-size: 12px !important;
+		}
+
+		.item-range .item-inner {
+		    padding: 0px !important;
+		}
+
+
+		ion-item.bg-grey .item-inner {
+		       margin: 0px !important;
+
+
+		}
+
+		.range-set{
+			    padding: 10px 2px !important;
+			    border-bottom: 2px solid !important;
+			    margin: 0px 0px 16px 0px !important;
+		}
+
+		.no-padding{
+			padding: 0px !important;
+		}
+
+		.label {
+		    margin: 6px;
+		}
+
+		input.text-input {
+		    margin: 4px;
+		}
+
+		ion-item.item-range .item-inner {
+		    border-bottom: 0px !important;
+		}
+
+}

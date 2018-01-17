@@ -1,0 +1,48 @@
+<ion-header class="head-bg">
+ <ion-navbar hideBackButton>
+    <ion-buttons left>
+        <button ion-button (click)="goBack()">
+            <ion-icon class="customIcon" name="">
+              <b style="font-family: sans-serif;">Back</b>
+            </ion-icon>
+        </button>
+    </ion-buttons>
+    <ion-title text-center>
+    <span >Life Score</span>
+    </ion-title>
+ </ion-navbar>
+</ion-header>
+
+
+<ion-content>
+<div style="    height: 100%;
+    align-items: center;
+    display: flex;">
+<ion-card class="card card-md" style="box-shadow: none;
+    border: 1px solid;
+    border-radius: 14px;
+    margin: auto;">
+
+    <ion-card-content class="card-content card-content-md" style="padding: 2px 10px 26px 10px;">
+      <ion-card-title class="card-title card-title-md" text-center>
+        <h5>New Area</h5>
+      </ion-card-title>
+      <p text-center style="margin-bottom: 10px;">
+        Title
+      </p>
+      <ion-item  class="input-set">
+       <ion-input type="text" value="" [(ngModel)]="newCategory" placeholder="Finance" style="    margin: 0px !important;" ></ion-input>
+  	</ion-item>
+  	
+    </ion-card-content>
+
+  <div style="width: 100% !important;display: inline-flex;    border-top: 1px solid;">
+    <button ion-button small color="light" style="width: 50% !important;margin: auto;border-right: 1px solid;border-radius: 0px 0px 0px 14px;" (click)="goBack()">Ok</button>
+    <button ion-button small color="light" style="width: 50% !important;margin: auto;border-radius: 0px 0px 14px 0px;">Cancel</button>
+   </div>
+
+  </ion-card>
+
+  </div>
+
+</ion-content>
